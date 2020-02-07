@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.barra{
+
+    
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #f7c5a8;
+}
+
+.barra ul a{
+
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid black;
+    
+}
+
+
+.cuadro{
+    width: 250px;
+    height: 150px;
+    background-color: #f7c5a8;
+}
+

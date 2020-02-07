@@ -1,5 +1,5 @@
 .cajaheader{
-    background-color: rosybrown;
+    background-color: #ffeadb;
     border-color:solid 1px rosybrown;
     color: rgb(15, 14, 14);
     height: 150px;
@@ -7,6 +7,9 @@
     text-align: center;
 
 }
+
+
+
 .cajamenu{
     background-color: rgb(216, 25, 206);
     border-color: darkmagenta;
@@ -41,6 +44,7 @@ table{
     text-align: justify;
     font-size: 40px;
     padding-right: 100px;
+  
 }
 
 

@@ -1,0 +1,35 @@
+.header{
+    background-color: #ffeadb;
+    width: auto;
+    height: 120px;
+    
+}
+
+.foto{
+    display: inline-block;
+    height: 100px;
+}
+
+.foto-logo{
+    width: 7%;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 220px;
+}
+
+.foto-titulo{
+    width: 25%;
+    margin-bottom: 35px;
+}
+
+.foto-nombre{
+    width: 23%;
+    margin-bottom: 20px;
+}
+
+.foto-eslogan{
+    width: 20%;
+    margin-left: -320px;
+    margin-bottom: 0px;
+}
+
