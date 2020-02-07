@@ -1,3 +1,13 @@
+/* paleta de colores
+    color: #ffbaba;
+    color: #ffeadb;
+    color: #f7c5a8;
+    color: #678a74;
+*/
+
+
+
+
 .cajaheader{
     background-color: #ffeadb;
     border-color:solid 1px rosybrown;
@@ -5,10 +15,7 @@
     height: 150px;
     width: 1900px;
     text-align: center;
-
 }
-
-
 
 .cajamenu{
     background-color: rgb(216, 25, 206);
@@ -46,17 +53,6 @@ table{
     padding-right: 100px;
   
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
