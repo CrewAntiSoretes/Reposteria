@@ -1,33 +1,59 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
+/*
+Icons made by <a href="https://www.flaticon.com/authors/payungkead" title="Payungkead">Payungkead</a> 
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> 
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> 
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> 
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> 
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
-.barra{
-    left: 0;
-    height: 100%;
-    width: 250px;
-    background-color: #f7c5a8;
+.barra {
+  
+  height: 100%;
+  width: 250px;
+  background-color: #f7c5a8;
+  max-width: 100%;
 }
 
-.barra ul a{
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: 20px;
-    color: #678a74;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 1);
-    border-bottom: 1px solid black;
+.barra ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: #678a74;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-bottom: 1px solid black;
+  max-width: 100%;
 }
 
-.cuadro{
-    width: 250px;
-    height: 150px;
-    background-color: #f7c5a8;
+.cuadro {
+  width: 250px;
+  height: 150px;
+  background-color: #f7c5a8;
 }
 
+.noticia{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
