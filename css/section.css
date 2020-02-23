@@ -32,7 +32,7 @@ tr:hover{
 /* ESTE CSS ES LA PARTE DE LOS PRODUCTOS lAS IMAGENES*/
 /*
 .container{
-    position: relative;
+    
     top: 20px;
     width: 90%;
     height: 250px;
@@ -41,9 +41,12 @@ tr:hover{
 }
 */
 .container .list-img{
+    position: relative;
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    float: left;
+   
+    justify-content: space-between;
 }
 .container .list-img li{
     margin-right: 10px;
