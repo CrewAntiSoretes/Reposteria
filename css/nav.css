@@ -16,6 +16,8 @@ from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 */
 
+
+
 * {
   padding: 0;
   margin: 0;
@@ -24,11 +26,11 @@ from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 }
 
 .barra {
-  
+  left: 0;
   height: 100%;
-  width: 250px;
+  width: auto;
   background-color: #f7c5a8;
-  max-width: 100%;
+
 }
 
 .barra ul a {
@@ -37,19 +39,60 @@ from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
   width: 100%;
   line-height: 65px;
   font-size: 20px;
-  color: #678a74;
+  color: white;
   padding-left: 40px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 1);
   border-bottom: 1px solid black;
-  max-width: 100%;
+  transition: .4s;
+  
 }
 
-.cuadro {
-  width: 250px;
-  height: 150px;
-  background-color: #f7c5a8;
+ul li:hover a{
+  padding-left: 100px;
+  color: #c3f0ca;
+  box-shadow: 0 0px 30px 0 #c3f0ca inset, 0 0px 3px 0 #c3f0ca,
+              0 0px 30px 0 #c3f0ca inset, 0 0px 3px 0 #c3f0ca;
 }
+
+
+.a{
+  position: relative;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+
+
+
+.a span{
+  position: absolute;
+  display: block;
+}
+
+
+.a span:nth-child(1){
+  top: 0px;
+  left: -100%;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg,transparent,#ff8ba7);
+}
+
+.a:hover span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+
+
+
+
+
+
+
 
 .noticia{
     width: 30px;
