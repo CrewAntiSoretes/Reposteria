@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+
+
+footer {
+    grid-column: 1/4;
+    grid-row: 5/6;
+  
+    background-color: #f7c5a8;
+  }
+
+
+  .footer{
+    font-family: 'Trade Winds' ;
+    font-size: 24px;
+    color: white;
+  }

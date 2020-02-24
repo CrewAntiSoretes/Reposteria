@@ -1,6 +1,6 @@
 
 body {
-    background-color: #faeee7;
+    background-color: #ffc6c7;
   }
   
   .modo-grid {
@@ -9,34 +9,15 @@ body {
     grid-template-columns: 200px 1fr 200px;
     grid-template-rows:
       minmax(100px, auto) minmax(100px, auto) minmax(100px, auto)
-      minmax(100px, auto) minmax(100px, auto);
+      minmax(100px, auto) minmax(200px, auto);
     gap: 10px;
   }
   
- nav{
-  grid-column: 1/2;
-  grid-row: 2/4;
- }
+
  
   
-  section {
-    grid-column: 2/3;
-    grid-row: 2/5;
-    background-color: #ffbaba
-  }
   
-  aside {
-    grid-column: 3/4;
-    grid-row: 2/5;
   
-    background-color: #ff8ba7;
-  }
-  footer {
-    grid-column: 1/4;
-    grid-row: 5/6;
-  
-    background-color: #ff8ba7;
-  }
 
 
 
@@ -63,62 +44,6 @@ body {
 
 
 
-.cajaheader{
-    background-color: #ffeadb;
-    border-color:solid 1px rosybrown;
-    color: rgb(15, 14, 14);
-    height: 150px;
-    width: 1900px;
-    text-align: center;
-}
-
-.cajamenu{
-    background-color: rgb(216, 25, 206);
-    border-color: darkmagenta;
-    color: white;
-    height: 600px;
-    width: 20%;
-}
-table{
-    border-collapse: collapse;
-}
-.cajaproductos{
-    width: 520px;
-    height: 300px;
-    border: 1px solid black;
-    
-    background-color: teal;
-}
-.cajanoticias{
-    width: 500px;
-    height: 600px;
-    background-color: violet;
-
-}
-.cajafooter{
-    width: 1900px;
-    background-color: cadetblue;
-    height: 200px;
-}
-
-.palabrasmenu{
-    list-style: none;
-    text-align: justify;
-    font-size: 40px;
-    padding-right: 100px;
-  
-}
-
-
-
-div#inicio > .texto.bg-color > h1#texto.estilo{
-    font-size: 32px;
-    text-decoration: underline;
-    color: white;
-    background-color: coral;
-}
-
-*/
 
 
 

@@ -1,20 +1,6 @@
-.header{
-    background-color: #ffeadb;
-    width: auto;
-    height: 150px;   
-    max-width: 100%;
-}
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
 
-.foto{
-    margin: auto;
-    display: block;
-}
 
-.foto-titulo{
-    width: 80%;
-    max-width: 200%;
-    height: 150px;
-}
 
 header {
     grid-column: 1/4;
@@ -38,26 +24,30 @@ header {
 }
 
 
-.spann::before{
+
+
+.inp{
     background: url(../Recursos/Header/search.png);
     width: 24px;
     height: 24px;
     margin-left: 80px;
-    
-    display: inline-block;
-    content: "";
-    vertical-align: middle;
-}
-
-.inp{
+    padding-left: 30px;
+    background-repeat: no-repeat;
     border-radius: 5px;
     border: 2px solid grey;
     width: 150px;
     height: 30px;
     margin-top: 50px;
-    
+    font-family: 'Trade Winds' ;
     transition: width 3s;
 }
+
+input::placeholder {
+    color: black;
+   
+    font-size: 1.2em;
+    font-style: italic;
+  }
 
 .inp:hover{
     width: 300px;

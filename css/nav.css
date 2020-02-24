@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+
 /*
 Icons made by <a href="https://www.flaticon.com/authors/payungkead" title="Payungkead">Payungkead</a> 
 from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
@@ -16,6 +20,10 @@ from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 */
 
+nav{
+  grid-column: 1/2;
+  grid-row: 2/4;
+ }
 
 
 * {
@@ -38,7 +46,7 @@ from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
   height: 100%;
   width: 100%;
   line-height: 65px;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   padding-left: 40px;
   box-sizing: border-box;
@@ -60,6 +68,7 @@ ul li:hover a{
   position: relative;
   display: inline-block;
   letter-spacing: 2px;
+  font-family: 'Trade Winds' ;
   font-size: 24px;
   overflow: hidden;
   transition: 0.2s;

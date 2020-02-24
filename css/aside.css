@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+  aside {
+    grid-column: 3/4;
+    grid-row: 2/5;
+  
+    background-color: #f7c5a8;
+  }
+ 

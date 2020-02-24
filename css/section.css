@@ -1,4 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+section {
+    grid-column: 2/3;
+    grid-row: 2/5;
+    background-color: #ffbaba
+  }
+
 /* ESTE CSS ES LA PARTE DE LOS PRECIOS (LA TABLA)*/
 
 #Main-Container{
