@@ -7,7 +7,7 @@
 }
 table{
     width: 928px;
-    background-color: rgb(175, 81, 81);
+    background-color: rgb(192, 138, 194);
     text-align: left;
     border-collapse: collapse;
 }
@@ -16,12 +16,12 @@ th, td{
     padding: 20px;
 }
 thead{
-    background-color: rgb(146, 95, 194);
+    background-color: rgb(170, 67, 170);
     border-bottom: 5px solid rgb(140, 95, 145);
     color: white;
 }
 tr:nth-child(even){
-    background-color: rgb(178, 86, 190);
+    background-color: rgb(231, 148, 213);
 
 }
 tr:hover{
