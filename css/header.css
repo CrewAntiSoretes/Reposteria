@@ -19,34 +19,47 @@
 header {
     grid-column: 1/4;
     grid-row: 1/2;
-    background-color: #ff8ba7;
+    background-color: #faeee7;
   }
 
-/*
-.foto-logo{
+.logo{
+    float: left;
+    width: 150px;
+    height:150px;
+}  
+
+.titulo{
+    float: left;
+    width: 500px;
     height: 100px;
-    max-width: 100%;
+    margin-left: 300px;
+    margin-top: 20px;
     
 }
 
-.foto-nombre{
-    width: 23%;
-    max-width: 100%;
+
+.spann::before{
+    background: url(../Recursos/Header/search.png);
+    width: 24px;
+    height: 24px;
+    margin-left: 80px;
     
-   
-    height: 40px;
+    display: inline-block;
+    content: "";
+    vertical-align: middle;
 }
 
-
-.foto-eslogan{
-    width: 20%;
-    max-width: 100%;
-    margin-left: -320px;
-    margin-bottom: 0px;
-    
+.inp{
+    border-radius: 5px;
+    border: 2px solid grey;
+    width: 150px;
     height: 30px;
+    margin-top: 50px;
+    
+    transition: width 3s;
 }
 
-
-
-*/
+.inp:hover{
+    width: 300px;
+   
+}
