@@ -1,116 +1,211 @@
-
-@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Trade+Winds&display=swap");
 
 section {
-    grid-column: 2/3;
-    grid-row: 2/5;
-    background-color: #ffbaba
+  grid-column: 2/3;
+  grid-row: 2/5;
+  background-color: #ff8ba7;
+  border-radius: 20px;
+}
+
+
+/* SECTION INDEX */
+
+.section-titulo{
+    font-family: "Trade Winds";
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline solid #ffbaba;
+}
+
+
+
+.section-destacado1 {
+    position: absolute;
+    background-image: url(../Recursos/Categorias/complementos.png);
+    background-size: 155px;
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 155px;
+    margin-left: 250px;
+    
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
   }
+  
+  .section-destacado1:hover {
+    background-image: url(../Recursos/Categorias/destacado1.jpg);
+    border-radius: 100px;
+    background-size: 155px;
+    width: 155px;
+    height: 155px;
+    background-size: inherit;
+    background-repeat: no-repeat;
+  }
+
+  
+.section-destacado2 {
+    position: absolute;
+    background-image: url(../Recursos/Categorias/ingredientes.png);
+    background-size: 155px;
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 155px;
+    margin-left: 700px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .section-destacado2:hover {
+    background-image: url(../Recursos/Categorias/destacado2.jpg);
+    border-radius: 100px;
+    background-size: 155px;
+    width: 155px;
+    height: 155px;
+    background-size: inherit;
+    background-repeat: no-repeat;
+  }
+
+  .section-destacado3 {
+    position: absolute;
+    background-image: url(../Recursos/Categorias/pasteles.png);
+    background-size: 155px;
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 155px;
+    margin-left: 250px;
+    margin-top: 220px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .section-destacado3:hover {
+    background-image: url(../Recursos/Categorias/destacado3.jpg);
+    border-radius: 100px;
+    background-size: 155px;
+    width: 155px;
+    height: 155px;
+    background-size: inherit;
+    background-repeat: no-repeat;
+  }
+
+  .section-destacado4 {
+    position: absolute;
+    background-image: url(../Recursos/Categorias/utensilios.png);
+    background-size: 155px;
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 155px;
+    margin-left: 700px;
+    margin-top: 220px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .section-destacado4:hover {
+    background-image: url(../Recursos/Categorias/destacado4.jpg);
+    border-radius: 100px;
+    background-size: 155px;
+    width: 155px;
+    height: 155px;
+    background-size: inherit;
+    background-repeat: no-repeat;
+  }
+  
+
 
 /* ESTE CSS ES LA PARTE DE LOS PRECIOS (LA TABLA)*/
 
-#Main-Container{
-    margin: 150 auto;
-    width: 600px;
+#Main-Container {
+  margin: 150 auto;
+  width: 600px;
 }
-table{
-    width: 928px;
-    background-color: rgb(192, 138, 194);
-    text-align: left;
-    border-collapse: collapse;
+table {
+  width: 928px;
+  background-color: rgb(192, 138, 194);
+  text-align: left;
+  border-collapse: collapse;
 }
-th, td{
-    border:1px solid black;
-    padding: 20px;
+th,
+td {
+  border: 1px solid black;
+  padding: 20px;
 }
-thead{
-    background-color: rgb(170, 67, 170);
-    border-bottom: 5px solid rgb(140, 95, 145);
-    color: white;
+thead {
+  background-color: rgb(170, 67, 170);
+  border-bottom: 5px solid rgb(140, 95, 145);
+  color: white;
 }
-tr:nth-child(even){
-    background-color: rgb(231, 148, 213);
-
+tr:nth-child(even) {
+  background-color: rgb(231, 148, 213);
 }
-tr:hover{
-    background-color: turquoise;
-    color: white;
-}
-
-/* ESTE CSS ES LA PARTE DE LOS PRODUCTOS lAS IMAGENES*/
-/*
-.container{
-    
-    top: 20px;
-    width: 90%;
-    height: 250px;
-    color: red;
-    margin: auto;
-}
-*/
-.container .list-img{
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    float: left;
-   
-    justify-content: space-between;
-}
-.container .list-img li{
-    margin-right: 10px;
-    margin-bottom: 10px;
-    list-style: none;
-}
-.container .list-img li .container-img{
-    position: relative;
-    width: 250px;
-    height: 230px;
-    
-    background-color: rgb(151, 120, 189);
-    border-radius: 3px;
-}
-.container .list-img li .container-img img{
-    position: relative;
-    width: 250px;
-    height: 150px;
-    border-top-right-radius: 3px;
-    border-top-left-radius:3px ;
-}
-.container .list-img li .container-img .informacion-img{
-
-    position: absolute;
-    /* bottom: 0; */
-    width: 150px;
-    height: 400px;
-    background-color:none;
-    
-}
-.container .list-img li .container-img .informacion-img .nombre-img{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 13px;
-    
-    margin-left: 8px;
-}
-.container .list-img li .container-img .informacion-img .info{
-    position: relative;
-    display: block;
-    text-decoration: none;
-    color: rgb(129, 36, 91);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    padding: 6px 12px;
-    padding-bottom: 2px;
-    border-radius: 90px;
-    border: 2px solid rgb(103, 21, 151);
-    height: 15px;
-    width: auto;
-    text-align: center;
-    line-height: 15px;
+tr:hover {
+  background-color: turquoise;
+  color: white;
 }
 
-.info:hover{
-    background-color: chartreuse;
+.container .list-img {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  justify-content: space-between;
+}
+.container .list-img li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.container .list-img li .container-img {
+  position: relative;
+  width: 250px;
+  height: 230px;
+
+  background-color: rgb(151, 120, 189);
+  border-radius: 3px;
+}
+.container .list-img li .container-img img {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.container .list-img li .container-img .informacion-img {
+  position: absolute;
+  /* bottom: 0; */
+  width: 150px;
+  height: 400px;
+  background-color: none;
+}
+.container .list-img li .container-img .informacion-img .nombre-img {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+
+  margin-left: 8px;
+}
+.container .list-img li .container-img .informacion-img .info {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: rgb(129, 36, 91);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding: 6px 12px;
+  padding-bottom: 2px;
+  border-radius: 90px;
+  border: 2px solid rgb(103, 21, 151);
+  height: 15px;
+  width: auto;
+  text-align: center;
+  line-height: 15px;
 }
 
+.info:hover {
+  background-color: chartreuse;
+}
 
 

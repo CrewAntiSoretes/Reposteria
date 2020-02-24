@@ -1,25 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
 
 
-
 header {
     grid-column: 1/4;
     grid-row: 1/2;
     background-color: #faeee7;
   }
 
-.logo{
+.header-logo{
     float: left;
     width: 120px;
     height:120px;
     transition: 1s;
 }  
 
-.logo:hover{
+.header-logo:hover{
     transform: rotate(360deg);
 }
 
-.titulo{
+.header-titulo{
     float: left;
     width: 500px;
     height: 100px;
@@ -27,15 +26,13 @@ header {
     margin-top: 10px;
 }
 
-.eslogan{
+.header-eslogan{
     margin-left: 75px;
     margin-top: 15px;
 }
 
 
-
-
-.inp{
+.header-barra-buscadora{
     background: url(../Recursos/Header/search.png);
     width: 24px;
     height: 24px;
@@ -53,12 +50,11 @@ header {
 
 input::placeholder {
     color: black;
-   
     font-size: 1.2em;
     font-style: italic;
   }
 
-.inp:hover{
+.header-barra-buscadora:hover{
     width: 300px;
    
 }

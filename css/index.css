@@ -3,36 +3,15 @@ body {
     background-color: #ffc6c7;
   }
   
-  .modo-grid {
-    display: grid;
+.index-modo-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows:
+  minmax(100px, auto) minmax(100px, auto) minmax(100px, auto)
+  minmax(100px, auto) minmax(200px, auto);
+  gap: 10px;
+}
   
-    grid-template-columns: 200px 1fr 200px;
-    grid-template-rows:
-      minmax(100px, auto) minmax(100px, auto) minmax(100px, auto)
-      minmax(100px, auto) minmax(200px, auto);
-    gap: 10px;
-  }
-  
-
- 
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* paleta de colores
     color: #ffbaba;

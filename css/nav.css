@@ -2,24 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
 
 
-/*
-Icons made by <a href="https://www.flaticon.com/authors/payungkead" title="Payungkead">Payungkead</a> 
-from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> 
-from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
-Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> 
-from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
-Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> 
-from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
-Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> 
-from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
-*/
-
 nav{
   grid-column: 1/2;
   grid-row: 2/4;
@@ -33,7 +15,7 @@ nav{
   list-style: none;
 }
 
-.barra {
+.nav-menu {
   left: 0;
   height: 100%;
   width: auto;
@@ -42,7 +24,7 @@ nav{
 
 }
 
-.barra ul a {
+.nav-menu ul a {
   display: block;
   height: 100%;
   width: 100%;
@@ -52,7 +34,6 @@ nav{
   padding-left: 40px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 1);
- 
   border-bottom: 1px solid black;
   transition: .4s;
   
@@ -67,7 +48,7 @@ ul li:hover a{
 }
 
 
-.a{
+.nav-efecto-linea-deslizante{
   position: relative;
   display: inline-block;
   letter-spacing: 2px;
@@ -77,16 +58,12 @@ ul li:hover a{
   transition: 0.2s;
 }
 
-
-
-
-.a span{
+.nav-efecto-linea-deslizante span{
   position: absolute;
   display: block;
 }
 
-
-.a span:nth-child(1){
+.nav-efecto-linea-deslizante span:nth-child(1){
   top: 0px;
   left: -100%;
   width: 100%;
@@ -94,21 +71,8 @@ ul li:hover a{
   background: linear-gradient(90deg,transparent,#ff8ba7);
 }
 
-.a:hover span:nth-child(1){
+.nav-efecto-linea-deslizante:hover span:nth-child(1){
   left: 100%;
   transition: 1s;
 }
 
-
-
-
-
-
-
-
-.noticia{
-    width: 30px;
-    height: 30px;
-    margin-bottom: -5px;
-    margin-right: 5px;
-}

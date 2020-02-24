@@ -1,85 +1,81 @@
-
-@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css?family=Trade+Winds&display=swap");
 
 footer {
-    grid-column: 1/4;
-    grid-row: 5/6;
-    background-color: #f7c5a8;
-  }
-
-
-  .footer{
-    font-family: 'Trade Winds' ;
-    font-size: 15px;
-    color: white;
-    margin-left: -50px;
-    text-align: center;
-  }
-
-
-  .btn{
-      float: inline-end;
-      width: 30px;
-      height: 30px;
-      margin: 10px;
-    
-      border-radius: 30px;
-      box-shadow: 0px 5px 15px -5px gray;
-      overflow: hidden;
-      position: relative;
-      transition: 0.2s linear;
-  }
-
-  .btn:hover{
-      transform: scale(1.5);
-  }
-
-  .pos{
-    margin-right: 180px;
-    margin-top: -20px;
-  }
-
- 
-
-  .icons2{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    box-shadow: 0px 5px 15px -5px gray;
-    overflow: hidden;
-    position: relative;
-    transition: 1s linear;
+  grid-column: 1/4;
+  grid-row: 5/6;
+  background-color: #f7c5a8;
 }
 
-.icons2:hover{
-    transform: rotate(360deg);
+hr {
+  color: coral;
+  width: 40%;
+  margin-left: 450px;
+  border: 2px solid coral;
 }
 
-.icons3{
-    width: 30px;
-    height: 30px;
-   
-    box-shadow: 0px 5px 15px -5px gray;
-    overflow: hidden;
-    position: relative;
-    transition: 1s ;
+.footer-texto-central {
+  font-family: "Trade Winds";
+  font-size: 15px;
+  color: white;
+  margin-left: -50px;
+  margin-top: 20px;
+  text-align: center;
 }
 
-.icons3:hover{
-    transform: scale(1.2)
-}
-
-.texto{
+.footer-texto-derecho {
     margin-left: 900px;
     margin-bottom: 20px;
     margin-top: -85px;
+  }
+  
+
+.footer-iconos-redes-sociales {
+  float: inline-end;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+
+  border-radius: 30px;
+  box-shadow: 0px 5px 15px -5px gray;
+  overflow: hidden;
+  position: relative;
+  transition: 0.2s linear;
 }
 
-hr{
-    color: coral;
-    width: 40%;
-    margin-left: 450px;
-    border: 2px solid coral;
+.footer-iconos-redes-sociales:hover {
+  transform: scale(1.5);
 }
+
+.footer-posicion-iconos-sociales {
+  margin-left: 1150px;
+  margin-top: -20px;
+}
+
+.footer-icono-wsp {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 15px -5px gray;
+  overflow: hidden;
+  position: relative;
+  transition: 1s linear;
+}
+
+.footer-icono-wsp:hover {
+  transform: rotate(-360deg);
+}
+
+.footer-icono-maps {
+  width: 30px;
+  height: 30px;
+
+  box-shadow: 0px 5px 15px -5px gray;
+  overflow: hidden;
+  position: relative;
+  transition: 1s;
+}
+
+.footer-icono-maps:hover {
+  transform: scale(1.2);
+}
+
