@@ -181,6 +181,8 @@ tr:nth-child(even) {
   flex-wrap: wrap;
   float: left;
   justify-content: space-between;
+  margin-left: 15px;
+  margin-top: 15px;
 }
 .container .list-img li {
   margin-right: 10px;
