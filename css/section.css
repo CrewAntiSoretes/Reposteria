@@ -142,8 +142,12 @@ thead {
 tr:nth-child(even) {
   background-color: rgb(231, 148, 213);
 }
-tr:hover {
-  background-color: turquoise;
+.productosDISP:hover {
+  background-color: rgb(91, 236, 72);
+  color: white;
+}
+.productosNOdisp:hover {
+  background-color: rgb(255, 9, 9);
   color: white;
 }
 
