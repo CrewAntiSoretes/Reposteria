@@ -22,7 +22,9 @@ section {
 
 
 .section-destacado1 {
+ 
     position: absolute;
+    float: none;
     background-image: url(../Recursos/Categorias/complementos.png);
     background-size: 155px;
     background-repeat: no-repeat;
