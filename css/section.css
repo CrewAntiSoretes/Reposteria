@@ -122,17 +122,21 @@ section {
 #Main-Container {
   margin: 150 auto;
   width: 600px;
+  margin-left: 50px;
+  
 }
 table {
   width: 928px;
   background-color: rgb(192, 138, 194);
   text-align: left;
   border-collapse: collapse;
+  
 }
 th,
 td {
   border: 1px solid black;
   padding: 20px;
+ 
 }
 thead {
   background-color: rgb(170, 67, 170);
@@ -149,6 +153,26 @@ tr:nth-child(even) {
 .productosNOdisp:hover {
   background-color: rgb(255, 9, 9);
   color: white;
+}
+
+.imagen-tabla{
+    position: absolute;
+    height: 18px;
+    border: none;
+    transition:  0.5s ;
+   
+}
+
+.imagen-tabla:hover{
+    background-image: url(../Recursos/Categorias/complementos/Bandejas/BandejasGruesasRedondasDoradas/bandeja2.jpg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    transform: scale(1.5);
+    color: transparent;
+  
 }
 
 .container .list-img {
