@@ -115,7 +115,36 @@ section {
     background-repeat: no-repeat;
   }
   
+/*  SECTION NOTICIAS  */
 
+h1, h2{
+  text-align: center;
+  color: #c3f0ca;
+  font-family: 'Trade Winds' ;
+}
+
+.section-noticias1{
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+
+.section-noticias2{
+  float: right;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.section-texto-p{
+  font-family: 'Trade Winds' ;
+  text-align: justify;
+  font-size: 15px;
+  color: #c3f0ca;
+  margin: 50px;
+}
 
 /* ESTE CSS ES LA PARTE DE LOS PRECIOS (LA TABLA)*/
 

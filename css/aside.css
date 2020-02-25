@@ -7,3 +7,29 @@
     background-color: #f7c5a8;
   }
  
+  h3{
+    text-align: center;
+    color: coral;
+    font-family: 'Trade Winds' ;
+    font-size: 15px;
+  }
+
+  .aside-imagen1{
+   
+    width: 100px;
+    height: 100px;
+  }
+
+  .aside-boton{
+    width: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 auto;
+  }
+
+  .aside-div{
+    border: 1px solid black;
+    border-radius: 5px;
+  }
