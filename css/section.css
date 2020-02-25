@@ -165,6 +165,7 @@ th,
 td {
   border: 1px solid black;
   padding: 20px;
+  font-family: 'Trade Winds' ;
  
 }
 thead {
@@ -241,8 +242,8 @@ tr:nth-child(even) {
   background-color: none;
 }
 .container .list-img li .container-img .informacion-img .nombre-img {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 13px;
+  font-family: 'Trade Winds' ;
+  font-size: 11px;
 
   margin-left: 8px;
 }
@@ -251,8 +252,8 @@ tr:nth-child(even) {
   display: block;
   text-decoration: none;
   color: rgb(129, 36, 91);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px;
+  font-family: 'Trade Winds' ;
+  font-size: 12px;
   padding: 6px 12px;
   padding-bottom: 2px;
   border-radius: 90px;
